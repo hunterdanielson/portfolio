@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://hunterdanielson.github.io/portfolio/build",
   "dependencies": {
     "jquery": "^3.5.1",
     "react": "^16.13.1",
