@@ -905,23 +905,27 @@ call-to-action .button {
 
 footer {
    padding-top: 48px;
-   margin-bottom: 48px;
+   margin-bottom: 4px;
    color: #303030;
    font-size: 14px;
    text-align: center;
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
+.social-links a, .social-links a:visited { color: #525252; }
+.social-links a:hover, .social-links a:focus { color: #fff; }
+
+.copyright a, .copyright a:visited { color: rgb(17,17,17); }
+.copyright a:hover, .copyright a:focus { color: rgb(20,20,20); }
 
 /* copyright */
 footer .copyright {
-    margin: 0;
-    padding: 0;
+   color: rgb(17,17,17);
+   margin: 0;
+   padding: 0;
  }
 footer .copyright li {
-    display: inline-block;
+   color: rgb(17,17,17);
     margin: 0;
     padding: 0;
     line-height: 24px;
@@ -933,7 +937,7 @@ footer .copyright li:before {
     content: "\2022";
     padding-left: 10px;
     padding-right: 10px;
-    color: #095153;
+    color: transparent;
 }
 footer .copyright  li:first-child:before {
     display: none;
