@@ -207,7 +207,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 180px;
+   width: 140px;
    height: 120px;
    border-radius: 100%;
 }
@@ -284,32 +284,33 @@ ul#nav li.current a { color: #F06000; }
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
-
-.bars {
-	width: 95%;
-	float: left;
-	padding: 0;
-	text-align: left;
-}
-.bars .skills {
+.skills {
   	margin-top: 36px;
    list-style: none;
+   display: flex;
+   flex-wrap: wrap;
 }
-.bars li {
+.tech-skill-container li {
+   border: 2px solid transparent;
+   margin: 10px;
    position: relative;
   	margin-bottom: 60px;
-  	background: #ccc;
-  	height: 42px;
-  	border-radius: 3px;
+   width: 100px;
+  	height: 100px;
+   border-radius: 3px;
+   text-align: center;
 }
-.bars li em {
+.tech-skill-container li em {
 	font: 15px 'opensans-bold', sans-serif;
    color: #313131;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
-   position: relative;
-	top: -36px;
+}
+
+.tech-skill-container .skill-image {
+   height: 50px;
+   width: 65px;
 }
 .bar-expand {
    position: absolute;

@@ -3,8 +3,8 @@
     "name":"Hunter Danielson",
     "occupation":"Software Developer",
     "description":"I am a constant learner, and builder. Two of the thing I enjoy the most about programming is being able to create cool things such as games or visually pleasing pieces, and being able to solve problems.",
-    "image":"profilepic.jpg",
-    "bio":"I enjoy learning new technologies and working with ones such as React, Python, and many others. Working on a team or individually is fine with me. In my free time I enjoy playing games with friends, and spending time outside in the elements.",
+    "image":"mydog.jpg",
+    "bio":"I enjoy learning new technologies and working with ones such as React, Python, and many others. Working on a team or individually is fine with me. In my free time I enjoy playing games with friends, and spending time outside in the elements. I also am an animal lover and have two dogs which I love spending time with.",
     "contactmessage":"Please don't hesistate to get into contact with me!",
     "email": "hunterleedanielson@gmail.com",
     "phone": "",
@@ -15,7 +15,7 @@
       "zip": ""
     },
     "website": "http://www.hunterdanielson.com",
-    "resumedownload":"HD-resume.jpg",
+    "resumedownload":"HD-Resume.pdf",
     "social":[
       {
         "name":"linkedin",
@@ -30,7 +30,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Familiar Technologies",
     "education":[
       {
         "school":"Walla Walla University",
@@ -56,35 +56,43 @@
     "skills":[
       {
         "name":"C++",
-        "level":"50%"
+        "image":"c++.png"
       },
       {
         "name":"Python",
-        "level":"60%"
+        "image":"python.png"
       },
       {
-        "name":"React",
-        "level":"70%"
+        "name":"GitHub",
+        "image":"github.png"
       },
       {
-        "name":"JavaScript",
-        "level":"80%"
-      },
-      {
-        "name":"HTML",
-        "level":"95%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"SQL",
-        "level":"50%"
+        "name":"Postgress",
+        "image":"postgress.png"
       },
       {
         "name":"PHP",
-        "level":"35%"
+        "image":"php.png"
+      },
+      {
+        "name":"React",
+        "image":"react.png"
+      },
+      {
+        "name":"JavaScript",
+        "image":"javascript.png"
+      },
+      {
+        "name":"HTML",
+        "image":"html.png"
+      },
+      {
+        "name":"CSS",
+        "image":"css.png"
+      },
+      {
+        "name":"Jest",
+        "image":"jest.png"
       }
     ]
   },
@@ -92,18 +100,29 @@
     "projects": [
       {
         "title":"JHEMM-Fighters",
-        "category":"Game built in vanilla JS utilizing local storage by a team of 5",
+        "category":"Game built in vanilla JS utilizing local storage by a team of 5. Players take turns attacking and defending until only one remains!",
         "image":"jhemm-fighters-picture.png",
         "url":"https://team-jhemm-fighters.github.io/jhemm-fighters/",
         "github":"https://github.com/team-jhemm-fighters/jhemm-fighters"
+      },
+      {
+        "title":"Last Hope",
+        "category":"Game built in React by a team of 3. It has user authentication and stores data on a backend that we built as well. It also connects to an external colors api.",
+        "image":"lasthope.png",
+        "url":"https://optimistic-hugle-af2d71.netlify.app/",
+        "github":"https://github.com/3rd-git-from-the-hub"
       }
     ]
   },
   "testimonials":{
     "testimonials":[
       {
-        "text":"Parker Sequeira",
-        "user":"I played your game. It's pretty good."
+        "text":"Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+        "user":"Martin Fowler"
+      },
+      {
+        "text":"Make it work, make it right, make it fast.",
+        "user":"Kent Beck"
       }
     ]
   }
