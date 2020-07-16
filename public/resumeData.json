@@ -111,6 +111,20 @@
         "image":"lasthope.png",
         "url":"https://optimistic-hugle-af2d71.netlify.app/",
         "github":"https://github.com/3rd-git-from-the-hub"
+      },
+      {
+        "title":"Memory Organizer",
+        "category":"Backend (Node.js, Express, MongoDB) that provides a space for users to upload photos and notes about their memories. All photos utilize the Google Cloud Vision API to auto-tag the images for increased searchability.",
+        "image":"memoryOrganizer.jpg",
+        "url":"https://github.com/MemoryOrganizer/memory-organizer-be",
+        "github":"https://github.com/MemoryOrganizer/memory-organizer-be"
+      },
+      {
+        "title":"Pokedex",
+        "category":"A pokedex clone, built in React, that utilizes Alchemy Code Labs pokemon API to retrieve data. Has ability to filter results based on the users request.",
+        "image":"pokedexClone.png",
+        "url":"https://github.com/hunterdanielson/pokedex",
+        "github":"https://github.com/hunterdanielson/pokedex"
       }
     ]
   },

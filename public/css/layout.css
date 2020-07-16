@@ -839,6 +839,7 @@ call-to-action .button {
    color: #EBEEEE;
    position: relative;
    left: 17%;
+   width: 150px;
    
 }
 #contact .header-col { padding-top: 6px; }
